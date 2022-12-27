@@ -1,0 +1,8 @@
+Logic
+Base Case: When target == 0 ie further addition of numbers will make the sum > target.
+
+For all cases when target >= 0, we add the current list to the solution set.
+
+Here we add numbers to the list one by one, each time we are recursively calling the function, so that every combination is considered for which the sum <= target.
+
+Algorithm used: Backtracking
